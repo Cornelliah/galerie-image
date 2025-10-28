@@ -22,11 +22,14 @@ function Galerie() {
 
 const images = imageNames.map(name => `/src/assets/${name}`);
 return (
+  
 
 <div className="gallery">
-{images.map((url, index) => (
+ <h1>Galerie d'image</h1>
+
+<div >{images.map((url, index) => (
 <ImageCard key={index} source={url} />
-))}
+))}</div>
 </div>
 );
 };

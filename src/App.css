@@ -4,6 +4,9 @@
   padding: 2rem;
   text-align: center;
 }
+h1{
+  color: #ff4757;
+}
 
 .logo {
   height: 6em;
