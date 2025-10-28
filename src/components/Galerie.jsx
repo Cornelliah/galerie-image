@@ -1,15 +1,12 @@
 import { useState } from 'react';
-import styles from './PortFolioStyles.module.css';
-import PortfolioCard from '../../components/PortfolioCard';
-import zoomIcon from "../../assets/loupe1.png";
 
 function Galerie() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   // images 
-  const imageNames = [ ];
+  const imageNames = ['img1.jpg'];
 
-const images = imageNames.map(name => `/assets/${name}`);
+const images = imageNames.map(name => `/src/assets/${name}`);
 return (
 
 <div className="gallery">
