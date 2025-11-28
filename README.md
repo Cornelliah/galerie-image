@@ -41,7 +41,7 @@ Vous devez avoir **Node.js** et **npm** (ou **Yarn**) installés sur votre syst�
 
 2.  **Naviguer** dans le répertoire du projet :
     ```bash
-    cd galerie-image
+    cd galerie-image-react
     ```
 
 3.  **Installer les dépendances** :
